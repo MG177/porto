@@ -7,12 +7,12 @@ import web1 from '../public/web1.png';
 import web2 from '../public/web2.png';
 import web3 from '../public/web3.png';
 import web4 from '../public/web4.png';
-import web5 from '../public/web5.png';
-import web6 from '../public/web6.png';
-import web7 from '../public/web7.png';
-import web8 from '../public/web8.png';
-import web9 from '../public/web9.png';
-import web10 from '../public/web10.png';
+// import web5 from '../public/web5.png';
+// import web6 from '../public/web6.png';
+// import web7 from '../public/web7.png';
+// import web8 from '../public/web8.png';
+// import web9 from '../public/web9.png';
+// import web10 from '../public/web10.png';
 import { useState } from 'react';
 
 export default function Home() {
@@ -38,7 +38,7 @@ export default function Home() {
               </li>
               <li>
                 <a
-                  href="https://www.linkedin.com/in/yehezkiel-owen-ombuh-018459251/"
+                  href="https://www.linkedin.com/in/mg-terok-1a81051a5/"
                   target="_blank"
                   rel="noreferrer"
                   className="bg-gradient-to-r from-rose-500 to-rose-700 text-white px-4 py-2 rounded-md ml-8"
@@ -98,7 +98,7 @@ export default function Home() {
             <p>
               Currently studying at{' '}
               <span className="text-rose-500 font-bold">Klabat University</span>{' '}
-              and gaining more experience through personal projects.
+              and gaining more experience through paid projects.
             </p>
           </div>
           <div className="mb-3">
@@ -138,13 +138,7 @@ export default function Home() {
           <div className="mb-3">
             <h3 className="text-3xl py-1">Portfolio</h3>
             <p className="mb-3">
-              Since I started my journey as a developer and designer, I have
-              worked on a wide range of projects.
-            </p>
-            <p>
-              br I offer a wide range of services, including Web Design, Web
-              Development, UI/UX and everything in between. Here are some of
-              them.
+            As a full-stack developer with a solid understanding of software development principles, I have a proven ability to deliver successful projects. Despite my relatively limited experience in this role, I have made significant contributions to a diverse range of projects, both independently and as part of a team. Some notable examples of my work include:
             </p>
           </div>
           <div className="flex flex-col gap-10 py-10 lg:flex-row lg:flex-wrap">
@@ -176,7 +170,7 @@ export default function Home() {
                 className="rounded-lg object-cover shadow-lg"
               />
             </div>
-            <div className="basis-1/3 flex-1">
+            {/* <div className="basis-1/3 flex-1">
               <Image
                 src={web5}
                 alt="web5"
@@ -217,7 +211,7 @@ export default function Home() {
                 alt="web10"
                 className="rounded-lg object-cover shadow-lg"
               />
-            </div>
+            </div> */}
           </div>
         </section>
       </main>
